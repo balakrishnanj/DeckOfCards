@@ -36,6 +36,7 @@ namespace DeckOfCards.Api.Controllers
 
             var deckResponse = new DeckResponse
             {
+                Id = _deck.Id,
                 Cards = new List<Card>(),
             };
             foreach (var card in _deck.GetCards())

@@ -27,6 +27,7 @@ namespace DeckOfCards.Api
             services.AddScoped<IDeckBuilder, DeckBuilder>();
             services.AddScoped<IDeckOfCardsGame, DeckOfCardsGame>();
             services.AddControllers();
+            services.AddSwaggerDocument();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +37,9 @@ namespace DeckOfCards.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseHttpsRedirection();
 
