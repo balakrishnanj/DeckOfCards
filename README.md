@@ -32,8 +32,8 @@ Github BuildOutput folder has runtime assemblies for Api and Console application
   - Run the restful API from the swagger UI.
 
 # List of apis:
-  Build - To build the deck
-  List - To get the current snapshot of the deck
-  Deal - Perform Deal one card operation
-  Shuffle - Will shuffle the deck and returns output with remaining cards
+  - Build - To build the deck
+  - List - To get the current snapshot of the deck
+  - Deal - Perform Deal one card operation
+  - Shuffle - Will shuffle the deck and returns output with remaining cards
 
