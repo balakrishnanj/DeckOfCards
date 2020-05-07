@@ -34,12 +34,14 @@ namespace DeckOfCards.Api.Controllers
                 Status = "Build the deck before you start the game!",
                 Success = false
             };
+
             var deckResponse = new DeckResponse
             {
                 Remaining = _deck.GetCards().Count,
                 Id = _deck.Id,
                 Cards = new List<Card>(),
-                Success = true,
+                Success = true
+                
             };
             foreach (var card in _deck.GetCards())
             {
@@ -47,7 +49,7 @@ namespace DeckOfCards.Api.Controllers
                 {
                     Rank = card.Rank,
                     Suit = card.GetSuitsName(),
-                    Value = card.GetFaceValue()
+                    FaceValue = card.GetFaceValue()
                 });
             }
 
@@ -58,13 +60,19 @@ namespace DeckOfCards.Api.Controllers
         [Route("Deal")]
         public DeckResponse DealOneCard()
         {
+            if (_deck.GetCards() == null) return new DeckResponse
+            {
+                Status = "Build the deck before you start the game!",
+                Success = false
+            };
+
             var card = _deckOfCardsGame.DealOneCard();
             if (card == null)
             {
                 return new DeckResponse
                 {
                     Id = _deck.Id,
-                    Status = "Deck is empty!",
+                    Status = "No card is available. Deck is empty. If you want to continue playing, build the deck again!",
                     Remaining = _deck.GetCards().Count,
                     Success = false
                 };
@@ -82,7 +90,7 @@ namespace DeckOfCards.Api.Controllers
                     {
                         Rank = card.Rank,
                         Suit = card.GetSuitsName(),
-                        Value = card.GetFaceValue()
+                        FaceValue = card.GetFaceValue()
                     }
                 }
             };
@@ -105,7 +113,7 @@ namespace DeckOfCards.Api.Controllers
                 Success = true,
                 Remaining = _deck.GetCards().Count,
                 Id = _deck.Id,
-                Status = "Shuffled Successfully"
+                Status = "Card Shuffled"
             };
         }
 
@@ -130,7 +138,7 @@ namespace DeckOfCards.Api.Controllers
                 {
                     Rank = card.Rank,
                     Suit = card.GetSuitsName(),
-                    Value = card.GetFaceValue()
+                    FaceValue = card.GetFaceValue()
                 });
             }
 

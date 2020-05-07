@@ -1,22 +1,22 @@
 {
 	"info": {
-		"_postman_id": "9ed969f7-3e8e-4a39-a34f-cc4ac77ed264",
+		"_postman_id": "5a77db36-e8a1-4464-ab35-1e3a666d745e",
 		"name": "DeckOfCards",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "https://localhost:44369/DeckOfCards/Build",
+			"name": "Build",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Build",
+					"raw": "https://localhost:5000/DeckOfCards/Build",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Build"
@@ -26,17 +26,17 @@
 			"response": []
 		},
 		{
-			"name": "https://localhost:44369/DeckOfCards/Build Copy",
+			"name": "Shuffle",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Shuffle",
+					"raw": "https://localhost:5000/DeckOfCards/Shuffle",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Shuffle"
@@ -51,15 +51,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/List",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"List"
 					]
 				}
 			},
@@ -71,12 +71,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -91,12 +91,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -111,12 +111,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -131,12 +131,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -151,12 +151,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -171,12 +171,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -191,12 +191,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -211,12 +211,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -231,12 +231,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -251,12 +251,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -271,12 +271,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -291,12 +291,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -311,12 +311,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -331,12 +331,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -351,12 +351,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -371,12 +371,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -391,12 +391,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -411,12 +411,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -431,12 +431,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -451,12 +451,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -471,12 +471,12 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Shuffle",
+					"raw": "https://localhost:5000/DeckOfCards/Shuffle",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Shuffle"
@@ -491,15 +491,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/List",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"List"
 					]
 				}
 			},
@@ -511,12 +511,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -531,12 +531,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -551,12 +551,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -571,12 +571,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -591,12 +591,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -611,12 +611,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -631,12 +631,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -651,12 +651,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -671,12 +671,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -691,12 +691,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -711,15 +711,15 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Shuffle",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"Shuffle"
 					]
 				}
 			},
@@ -731,15 +731,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/List",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"List"
 					]
 				}
 			},
@@ -751,12 +751,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -771,12 +771,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -791,12 +791,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -811,12 +811,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -831,12 +831,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -851,12 +851,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -871,12 +871,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -891,12 +891,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -911,12 +911,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -931,12 +931,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -946,20 +946,20 @@
 			"response": []
 		},
 		{
-			"name": "Suffle",
+			"name": "Shuffle",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Shuffle",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"Shuffle"
 					]
 				}
 			},
@@ -971,15 +971,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/List",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"List"
 					]
 				}
 			},
@@ -991,12 +991,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1011,12 +1011,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1031,12 +1031,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1051,12 +1051,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1071,12 +1071,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1091,12 +1091,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1111,12 +1111,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1131,12 +1131,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1151,12 +1151,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1171,12 +1171,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1191,12 +1191,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1211,12 +1211,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
@@ -1226,20 +1226,20 @@
 			"response": []
 		},
 		{
-			"name": "Suffle",
+			"name": "Shuffle",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Shuffle",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"Shuffle"
 					]
 				}
 			},
@@ -1251,15 +1251,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/List",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
-						"Deal"
+						"List"
 					]
 				}
 			},
@@ -1271,12 +1271,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"raw": "https://localhost:5000/DeckOfCards/Deal",
 					"protocol": "https",
 					"host": [
 						"localhost"
 					],
-					"port": "44369",
+					"port": "5000",
 					"path": [
 						"DeckOfCards",
 						"Deal"
