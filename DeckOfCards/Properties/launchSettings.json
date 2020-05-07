@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "DeckOfCards.Console": {
+      "commandName": "Project"
+    }
+  }
+}
