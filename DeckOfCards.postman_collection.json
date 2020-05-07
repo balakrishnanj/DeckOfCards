@@ -1,0 +1,1290 @@
+{
+	"info": {
+		"_postman_id": "9ed969f7-3e8e-4a39-a34f-cc4ac77ed264",
+		"name": "DeckOfCards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44369/DeckOfCards/Build",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Build",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Build"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44369/DeckOfCards/Build Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Shuffle",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Shuffle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show the Deck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-9",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-11",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-12",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-13",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-14",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-15",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-16",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-17",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-18",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-19",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Suffle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Shuffle",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Shuffle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show the Deck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-21",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-23",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-24",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-25",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-26",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-27",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-28",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-29",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-30",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Suffle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show the Deck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-31",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-32",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-33",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-34",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-35",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-36",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-37",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-38",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-39",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-40",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Suffle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show the Deck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-41",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-42",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-43",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-44",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-45",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-46",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-47",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-48",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-49",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-50",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-51",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-52",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Suffle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show the Deck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deck-turn-53",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/DeckOfCards/Deal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"DeckOfCards",
+						"Deal"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

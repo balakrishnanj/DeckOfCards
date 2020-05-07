@@ -5,6 +5,7 @@ namespace DeckOfCards.Domain.Messages
 {
     public interface IDeck
     {
+        Guid Id { get; set; }
         IList<ICard> GetCards();
         void Add(ICard card);
         void Remove(int cardIndex);
@@ -13,6 +14,8 @@ namespace DeckOfCards.Domain.Messages
     public class Deck : IDeck
     {
         private IList<ICard> Cards { get; set; }
+        public Guid Id { get; set; }
+
         public IList<ICard> GetCards()
         {
             return Cards;

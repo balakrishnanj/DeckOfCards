@@ -17,6 +17,7 @@ namespace DeckOfCards.Tests
 
             //Assert
             var cards = deck.GetCards();
+            Assert.IsNotNull(deck.Id);
             Assert.AreEqual(cards.Count, 52);
             Assert.AreEqual(cards.Select(c => c.GetSuitsName()).Distinct().Count(), 4);
             Assert.AreEqual(cards.Count(x => x.GetSuitsName() == typeof(Clubs).Name), 13);
