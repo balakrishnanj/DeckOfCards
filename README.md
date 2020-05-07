@@ -37,4 +37,11 @@ Github BuildOutput folder has runtime assemblies for Api and Console application
   - Deal - Perform Deal one card operation
   - Shuffle - Will shuffle the deck and returns output with remaining cards
   - Reset - Will reset the deck
+  
+ # To build the app
+ - Console:
+   -  dotnet publish .\DeckOfCards.Console\DeckOfCards.Console.csproj --self-contained true --runtime win-x64 --output .\BuildOutput\Console\
+   
+  - API
+   - dotnet publish .\DeckOfCards.Api\DeckOfCards.Api.csproj --self-contained true --runtime win-x64 --output .\BuildOutput\Api -c Release
 
