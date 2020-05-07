@@ -9,6 +9,7 @@ namespace DeckOfCards.Api.Controllers
 {
     [ApiController]
     [Route("DeckOfCards")]
+    [Produces("application/json")]
     public class DeckOfCardsController : ControllerBase
     {
         private readonly IDeckOfCardsGame _deckOfCardsGame;
@@ -33,11 +34,12 @@ namespace DeckOfCards.Api.Controllers
                 Status = "Build the deck before you start the game!",
                 Success = false
             };
-
             var deckResponse = new DeckResponse
             {
+                Remaining = _deck.GetCards().Count,
                 Id = _deck.Id,
                 Cards = new List<Card>(),
+                Success = true,
             };
             foreach (var card in _deck.GetCards())
             {
