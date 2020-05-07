@@ -26,6 +26,16 @@ namespace DeckOfCards.Api
             services.AddSingleton<IDeck, Deck>();
             services.AddScoped<IDeckBuilder, DeckBuilder>();
             services.AddScoped<IDeckOfCardsGame, DeckOfCardsGame>();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("DeckOfCardsPolicy", builder =>
+                {
+                    builder.AllowAnyHeader();
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyOrigin();
+                });
+            });
+
             services.AddControllers();
             services.AddSwaggerDocument();
         }
@@ -40,7 +50,7 @@ namespace DeckOfCards.Api
 
             app.UseOpenApi();
             app.UseSwaggerUi3();
-
+            app.UseCors("DeckOfCardsPolicy");
             app.UseHttpsRedirection();
 
             app.UseRouting();
