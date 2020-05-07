@@ -1,9 +1,9 @@
 ﻿# DeckOfCards 
  The application was developed using .Net core 3.1 frameworks with C# as the backend. 
- Application has both Console application and Web API
- Kindly use the Swagger link for API documentation.
- Repo has a postman collection to run the entire deck with 52 cards.
- Serilog for logging (both custom and Microsoft logs to file and console app)
+ - Application has both Console application and Web API
+ - Kindly use the Swagger link for API documentation.
+ - Repo has a postman collection to run the entire deck with 52 cards.
+ - Serilog for logging (both custom and Microsoft logs to file and console app), using .net core dependency injection
  
 # Core domain Classes:
  
