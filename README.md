@@ -24,9 +24,9 @@ Github BuildOutput folder has runtime assemblies for Api and Console application
 
 - Console application: Run \BuildOutput\Console\DeckOfCards.Console.exe
 - API: 
-  BuildOutput\Api\DeckOfCards.Api.exe
-  Open the browser and run: https:\\localhost:5000\Swagger
-Run the restful API from the swagger UI.
+  - BuildOutput\Api\DeckOfCards.Api.exe
+  - Open the browser and run: https:\\localhost:5000\Swagger
+  - Run the restful API from the swagger UI.
 
 # List of API's:
   Build - To build the deck
