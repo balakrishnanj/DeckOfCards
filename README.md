@@ -43,5 +43,5 @@ Github BuildOutput folder has runtime assemblies for Api and Console application
    -  dotnet publish .\DeckOfCards.Console\DeckOfCards.Console.csproj --self-contained true --runtime win-x64 --output .\BuildOutput\Console\
    
   - API
-   - dotnet publish .\DeckOfCards.Api\DeckOfCards.Api.csproj --self-contained true --runtime win-x64 --output .\BuildOutput\Api -c Release
+    - dotnet publish .\DeckOfCards.Api\DeckOfCards.Api.csproj --self-contained true --runtime win-x64 --output .\BuildOutput\Api -c Release
 
