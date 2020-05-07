@@ -24,9 +24,10 @@ namespace DeckOfCards.Api
                     webBuilder.UseStartup<Startup>();
                 })
                 .UseSerilog((hostContext, loggerConfiguration) =>
-                    {
-                        loggerConfiguration.ReadFrom
-                            .Configuration(hostContext.Configuration);
-                    });
+                {
+                    loggerConfiguration.ReadFrom
+                        .Configuration(hostContext.Configuration)
+                        .WriteTo.Console();
+                });
     }
 }
