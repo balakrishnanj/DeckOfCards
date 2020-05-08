@@ -17,7 +17,7 @@
     
 - Deck.cs:
     This class is responsible for Add, Remove, and Swap cards in the deck. It takes care of not adding duplicate cards to the suit.
-    Methods: 
+    -Methods: 
       - Add
       - Remove
       - Swap.
