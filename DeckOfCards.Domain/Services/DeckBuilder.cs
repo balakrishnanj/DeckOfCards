@@ -15,7 +15,7 @@ namespace DeckOfCards.Domain.Services
         public void Build()
         {
             _deck.Id = Guid.NewGuid();
-
+            _deck.Reset();
             var suitTypes = typeof(ICard)
                 .Assembly
                 .GetTypes()

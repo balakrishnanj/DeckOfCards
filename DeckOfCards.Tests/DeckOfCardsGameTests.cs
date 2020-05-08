@@ -16,6 +16,7 @@ namespace DeckOfCards.Tests
         {
             //Arrange
             var deck = new Deck();
+            deck.Reset();
             deck.Add(new Clubs(1));
             deck.Add(new Diamonds(1));
             deck.Add(new Hearts(1));

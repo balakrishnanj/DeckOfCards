@@ -13,6 +13,7 @@ namespace DeckOfCards.Tests
         public void Setup()
         {
             _deck = new Deck();
+            _deck.Reset();
             _deck.Add(new Hearts(1));
             _deck.Add(new Spades(1));
         }
@@ -39,6 +40,13 @@ namespace DeckOfCards.Tests
         }
 
         [TestMethod]
+        public void Add_DeckIsNull_ShouldThrowException()
+        {
+            _deck = new Deck();
+            Assert.ThrowsException<Exception>(() => _deck.Add(new Clubs(1)));
+        }
+
+        [TestMethod]
         public void Remove_ValidIndex_RemoveCardFromDeck()
         {
             //Act
@@ -52,6 +60,13 @@ namespace DeckOfCards.Tests
         {
             //Act -> //Assert
             Assert.ThrowsException<Exception>(() => _deck.Remove(3));
+        }
+
+        [TestMethod]
+        public void Remove_DeckIsNull_ShouldThrowException()
+        {
+            _deck = new Deck();
+            Assert.ThrowsException<Exception>(() => _deck.Remove(1));
         }
 
         [TestMethod]
@@ -77,6 +92,13 @@ namespace DeckOfCards.Tests
             _deck.Add(new Clubs(1));
             var firstCardValue = _deck.GetCards()[1].GetFaceValue();
             Assert.ThrowsException<Exception>(() => _deck.Swap(1, 5), firstCardValue);
+        }
+
+        [TestMethod]
+        public void Swap_DeckIsNull_ShouldThrowException()
+        {
+            _deck = new Deck();
+            Assert.ThrowsException<Exception>(() => _deck.Swap(0,1));
         }
     }
 }

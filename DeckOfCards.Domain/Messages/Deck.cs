@@ -7,6 +7,7 @@ namespace DeckOfCards.Domain.Messages
     {
         Guid Id { get; set; }
         IList<ICard> GetCards();
+        void Reset();
         void Add(ICard card);
         void Remove(int cardIndex);
         void Swap(int initialIndex, int newIndex);
@@ -20,9 +21,16 @@ namespace DeckOfCards.Domain.Messages
         {
             return Cards;
         }
+
+        public void Reset()
+        {
+            Cards = new List<ICard>();
+        }
+
         public void Add(ICard card)
         {
-            Cards = Cards ?? new List<ICard>();
+            if(Cards == null) throw new Exception("Invalid deck. Build the deck!");
+
             if (!Cards.Contains(card))
                 Cards.Add(card);
         }
@@ -30,6 +38,8 @@ namespace DeckOfCards.Domain.Messages
         {
             try
             {
+                if (Cards == null) throw new Exception("Invalid deck. Build the deck!");
+
                 Cards.RemoveAt(cardIndex);
             }
             catch (Exception ex)
@@ -40,6 +50,8 @@ namespace DeckOfCards.Domain.Messages
 
         public void Swap(int initialIndex, int newIndex)
         {
+            if (Cards == null) throw new Exception("Invalid deck. Build the deck!");
+
             if (newIndex > Cards.Count || newIndex < 0) { throw new Exception($"Cannot shuffle cards. {newIndex} is out of bound"); }
             if (initialIndex > Cards.Count || newIndex < 0) { throw new Exception($"Cannot shuffle cards. {initialIndex} is out of bound"); }
             
