@@ -3,7 +3,7 @@
  - Application has both Console application and Web API
  - Kindly use the Swagger link for API documentation.
  - Repo has a postman collection to run the entire deck with 52 cards.
- - Serilog for logging (both custom and Microsoft logs to file and console app), using .net core dependency injection
+ - Serilog for logging (both custom and Microsoft logs to file and console app), .net core dependency injection
  
 # Core domain Classes:
  
