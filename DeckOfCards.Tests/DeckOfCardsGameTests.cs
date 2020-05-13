@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using DeckOfCards.Domain.Messages;
 using DeckOfCards.Domain.Services;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -35,8 +36,10 @@ namespace DeckOfCards.Tests
         [TestMethod]
         public void DealOneCard_EmptyDeck_ShouldReturnNull()
         {
+            var deck = new Deck();
+            deck.Reset();
 
-            _deckOfCardsGame = new DeckOfCardsGame(new Deck());
+            _deckOfCardsGame = new DeckOfCardsGame(deck);
 
             var card = _deckOfCardsGame.DealOneCard();
 
@@ -47,10 +50,7 @@ namespace DeckOfCards.Tests
         public void Shuffle_DeckHasOnlyOneCard_ShouldNotShuffle()
         {
             var deck = Substitute.For<IDeck>();
-            deck.GetCards().Returns(new List<ICard>
-            {
-                new Clubs(1)
-            });
+            deck.GetCards().Returns(new ReadOnlyCollection<ICard>(new List<ICard> {new Clubs(1)}));
 
             _deckOfCardsGame = new DeckOfCardsGame(deck);
             _deckOfCardsGame.Shuffle();
@@ -62,10 +62,7 @@ namespace DeckOfCards.Tests
         public void Shuffle_DeckHasNoCards_ShouldNotShuffle()
         {
             var deck = Substitute.For<IDeck>();
-            deck.GetCards().Returns(new List<ICard>
-            {
-                new Clubs(1)
-            });
+            deck.GetCards().Returns(new ReadOnlyCollection<ICard>(new List<ICard> {new Clubs(1)}));
 
             _deckOfCardsGame = new DeckOfCardsGame(deck);
             _deckOfCardsGame.Shuffle();
@@ -77,12 +74,12 @@ namespace DeckOfCards.Tests
         public void Shuffle_DeckHasValidCards_ShouldShuffle()
         {
             var deck = Substitute.For<IDeck>();
-            deck.GetCards().Returns(new List<ICard>
+            deck.GetCards().Returns(new ReadOnlyCollection<ICard>(new List<ICard>
             {
                 new Clubs(1),
                 new Diamonds(2),
                 new Hearts(3)
-            });
+            }));
 
             _deckOfCardsGame = new DeckOfCardsGame(deck);
             _deckOfCardsGame.Shuffle();

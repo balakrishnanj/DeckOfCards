@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace DeckOfCards.Domain.Messages
 {
     public interface IDeck
     {
         Guid Id { get; set; }
-        IList<ICard> GetCards();
+        ReadOnlyCollection<ICard> GetCards();
         void Reset();
         void Add(ICard card);
         void Remove(int cardIndex);
@@ -17,9 +18,9 @@ namespace DeckOfCards.Domain.Messages
         private IList<ICard> Cards { get; set; }
         public Guid Id { get; set; }
 
-        public IList<ICard> GetCards()
+        public ReadOnlyCollection<ICard> GetCards()
         {
-            return Cards;
+            return new ReadOnlyCollection<ICard>(Cards);
         }
 
         public void Reset()
@@ -31,8 +32,18 @@ namespace DeckOfCards.Domain.Messages
         {
             if(Cards == null) throw new Exception("Invalid deck. Build the deck!");
 
+            if (!RankFaceValueMapper.Instance.ContainsKey(card.Rank))
+            {
+                throw new Exception("Invalid Card. Card rank should be between 1-13");
+            }
+
             if (!Cards.Contains(card))
                 Cards.Add(card);
+
+            if (Cards.Count > Constants.DECK_SIZE)
+            {
+                throw new Exception($"Deck size cannot be greater than { Constants.DECK_SIZE } ");
+            }
         }
         public void Remove(int cardIndex)
         {

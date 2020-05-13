@@ -1,5 +1,6 @@
 ﻿using System;
 using DeckOfCards.Domain.Messages;
+using DeckOfCards.Domain.Services;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DeckOfCards.Tests
@@ -44,6 +45,13 @@ namespace DeckOfCards.Tests
         {
             _deck = new Deck();
             Assert.ThrowsException<Exception>(() => _deck.Add(new Clubs(1)));
+        }
+
+        [TestMethod]
+        public void Add_CardWithInvalidRank_ShouldThrowException()
+        {
+            //Add
+            Assert.ThrowsException<Exception>(() => _deck.Add(new Clubs(14)));
         }
 
         [TestMethod]
